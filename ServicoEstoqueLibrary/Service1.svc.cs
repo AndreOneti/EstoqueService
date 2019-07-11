@@ -5,7 +5,8 @@ using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.ServiceModel.Web;
 using System.Text;
-using System.ServiceModel.Activation;using EstoqueEntityModel;
+using System.ServiceModel.Activation;
+using EstoqueEntityModel;
 using System.Data.Entity;
 
 namespace ServicoEstoqueLibrary
@@ -43,7 +44,26 @@ namespace ServicoEstoqueLibrary
 
         public int ConsultaEstoque(string NumeroProduto)
         {
-            throw new NotImplementedException();
+            try
+            {
+                // Conect ao banco de dados
+                using (ProvedorEstoque database = new ProvedorEstoque())
+                {
+                    ProdutoEstoque produtoEstoque = (from p in database.ProdutoEstoque
+                                                     where String.Compare(p.NumeroProduto, NumeroProduto) == 0
+                                                     select p).First();
+                    if(produtoEstoque == null)
+                    {
+                        return 0;
+                    }
+                    return produtoEstoque.EstoqueProduto;
+                }
+
+            }
+            catch
+            {
+                return 0;
+            }
         }
 
         public bool IncluirProduto(Produto Produto)
@@ -58,12 +78,58 @@ namespace ServicoEstoqueLibrary
 
         public bool RemoverEstoque(string NumeroProduto, int Quantidade)
         {
-            throw new NotImplementedException();
+            try
+            {
+                // Conectar ao banco
+                using (ProvedorEstoque database = new ProvedorEstoque())
+                {
+                    // Busca  id para estoque especifico
+                    ProdutoEstoque produtoEstoque = (from p in database.ProdutoEstoque
+                                                     where String.Compare(p.NumeroProduto, NumeroProduto) == 0
+                                                     select p).First();
+                    if (produtoEstoque == null)
+                    {
+                        return false;
+                    }
+                    // Busca o estoque
+                    produtoEstoque.EstoqueProduto -= Quantidade;
+                    database.SaveChanges();
+                }
+            }
+            catch
+            {
+                return false;
+            }
+
+            return true;
         }
 
         public bool RemoverProduto(string NumeroProduto)
         {
-            throw new NotImplementedException();
+            try
+            {
+                // Conectar ao banco
+                using (ProvedorEstoque database = new ProvedorEstoque())
+                {
+                    // Busca  id para estoque especifico
+                    ProdutoEstoque produtoEstoque = (from p in database.ProdutoEstoque
+                                                     where String.Compare(p.NumeroProduto, NumeroProduto) == 0
+                                                     select p).First();
+                    if (produtoEstoque == null)
+                    {
+                        return false;
+                    }
+                    // Busca o estoque
+                    database.ProdutoEstoque.Remove(produtoEstoque);
+                    database.SaveChanges();
+                }
+            }
+            catch
+            {
+                return false;
+            }
+
+            return true;
         }
 
         public Produto VerProduto(string NumeroProduto)

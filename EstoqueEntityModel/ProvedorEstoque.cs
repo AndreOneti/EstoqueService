@@ -35,5 +35,11 @@ namespace EstoqueEntityModel
         public string DescricaoProduto { get; set; }
         [Required]
         public int EstoqueProduto { get; set; }
-    }
+
+        public static explicit operator ProdutoEstoque(global::ServicoEstoqueLibrary.Produto v)
+        {
+            throw new NotImplementedException();
+        }
+    }
+
 }

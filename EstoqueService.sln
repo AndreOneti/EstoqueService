@@ -7,6 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstoqueEntityModel", "Estoq
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicoEstoqueLibrary", "ServicoEstoqueLibrary\ServicoEstoqueLibrary.csproj", "{F51FEA89-CD14-40BA-9279-A169D0C3FDED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstoqueClient", "EstoqueClient\EstoqueClient.csproj", "{E8B3625A-44C7-47F0-BF9B-5B7B2FF3B59E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F51FEA89-CD14-40BA-9279-A169D0C3FDED} = {F51FEA89-CD14-40BA-9279-A169D0C3FDED}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvedorEstoqueHost", "ProvedorEstoqueHost\ProvedorEstoqueHost.csproj", "{0537002A-EE0C-4B03-BE53-08CB33326298}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +28,19 @@ Global
 		{F51FEA89-CD14-40BA-9279-A169D0C3FDED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F51FEA89-CD14-40BA-9279-A169D0C3FDED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F51FEA89-CD14-40BA-9279-A169D0C3FDED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8B3625A-44C7-47F0-BF9B-5B7B2FF3B59E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8B3625A-44C7-47F0-BF9B-5B7B2FF3B59E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8B3625A-44C7-47F0-BF9B-5B7B2FF3B59E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8B3625A-44C7-47F0-BF9B-5B7B2FF3B59E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0537002A-EE0C-4B03-BE53-08CB33326298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0537002A-EE0C-4B03-BE53-08CB33326298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0537002A-EE0C-4B03-BE53-08CB33326298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0537002A-EE0C-4B03-BE53-08CB33326298}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30708D04-D3A0-4BD4-A553-B49FFA945381}
 	EndGlobalSection
 EndGlobal

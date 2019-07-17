@@ -1,0 +1,16 @@
+C:\Users\André\Desktop\EstoqueService\ProvedorEstoqueHost\bin\Debug\ProvedorEstoqueHost.exe.config
+C:\Users\André\Desktop\EstoqueService\ProvedorEstoqueHost\bin\Debug\ProvedorEstoqueHost.exe
+C:\Users\André\Desktop\EstoqueService\ProvedorEstoqueHost\bin\Debug\ProvedorEstoqueHost.pdb
+C:\Users\André\Desktop\EstoqueService\ProvedorEstoqueHost\bin\Debug\ServicoEstoqueLibrary.dll
+C:\Users\André\Desktop\EstoqueService\ProvedorEstoqueHost\bin\Debug\EstoqueEntityModel.dll
+C:\Users\André\Desktop\EstoqueService\ProvedorEstoqueHost\bin\Debug\EntityFramework.dll
+C:\Users\André\Desktop\EstoqueService\ProvedorEstoqueHost\bin\Debug\ServicoEstoqueLibrary.pdb
+C:\Users\André\Desktop\EstoqueService\ProvedorEstoqueHost\bin\Debug\ServicoEstoqueLibrary.dll.config
+C:\Users\André\Desktop\EstoqueService\ProvedorEstoqueHost\bin\Debug\EstoqueEntityModel.pdb
+C:\Users\André\Desktop\EstoqueService\ProvedorEstoqueHost\bin\Debug\EstoqueEntityModel.dll.config
+C:\Users\André\Desktop\EstoqueService\ProvedorEstoqueHost\bin\Debug\EntityFramework.xml
+C:\Users\André\Desktop\EstoqueService\ProvedorEstoqueHost\obj\Debug\ProvedorEstoqueHost.csprojAssemblyReference.cache
+C:\Users\André\Desktop\EstoqueService\ProvedorEstoqueHost\obj\Debug\ProvedorEstoqueHost.csproj.CoreCompileInputs.cache
+C:\Users\André\Desktop\EstoqueService\ProvedorEstoqueHost\obj\Debug\ProvedorEstoqueHost.csproj.CopyComplete
+C:\Users\André\Desktop\EstoqueService\ProvedorEstoqueHost\obj\Debug\ProvedorEstoqueHost.exe
+C:\Users\André\Desktop\EstoqueService\ProvedorEstoqueHost\obj\Debug\ProvedorEstoqueHost.pdb

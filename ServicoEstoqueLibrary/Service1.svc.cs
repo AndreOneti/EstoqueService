@@ -102,13 +102,16 @@ namespace ServicoEstoqueLibrary
                 using (ProvedorEstoque database = new ProvedorEstoque())
                 {
                     // Busca  id para estoque especifico
-                    produtoEstoque = (from p in database.ProdutoEstoque select p.NomeProduto).ToList();
+                    List<ProdutoEstoque> estoques = (from p in database.ProdutoEstoque select p).ToList();
 
+                    foreach(ProdutoEstoque estoque in estoques)
+                    {
+                        produtoEstoque.Add(estoque.NomeProduto);
+                    }
                 }
             }
             catch
             {
-                return produtoEstoque;
             }
 
             return produtoEstoque;

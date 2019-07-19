@@ -1,0 +1,15 @@
+C:\Users\André\Desktop\EstoqueService\EstoqueLibrary\bin\Debug\EstoqueLibrary.dll.config
+C:\Users\André\Desktop\EstoqueService\EstoqueLibrary\bin\Debug\EstoqueLibrary.dll
+C:\Users\André\Desktop\EstoqueService\EstoqueLibrary\bin\Debug\EstoqueLibrary.pdb
+C:\Users\André\Desktop\EstoqueService\EstoqueLibrary\bin\Debug\EntityFramework.dll
+C:\Users\André\Desktop\EstoqueService\EstoqueLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\André\Desktop\EstoqueService\EstoqueLibrary\bin\Debug\EstoqueEntityModel.dll
+C:\Users\André\Desktop\EstoqueService\EstoqueLibrary\bin\Debug\EstoqueEntityModel.pdb
+C:\Users\André\Desktop\EstoqueService\EstoqueLibrary\bin\Debug\EstoqueEntityModel.dll.config
+C:\Users\André\Desktop\EstoqueService\EstoqueLibrary\bin\Debug\EntityFramework.xml
+C:\Users\André\Desktop\EstoqueService\EstoqueLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\André\Desktop\EstoqueService\EstoqueLibrary\obj\Debug\EstoqueLibrary.csprojAssemblyReference.cache
+C:\Users\André\Desktop\EstoqueService\EstoqueLibrary\obj\Debug\EstoqueLibrary.csproj.CoreCompileInputs.cache
+C:\Users\André\Desktop\EstoqueService\EstoqueLibrary\obj\Debug\EstoqueLibrary.csproj.CopyComplete
+C:\Users\André\Desktop\EstoqueService\EstoqueLibrary\obj\Debug\EstoqueLibrary.dll
+C:\Users\André\Desktop\EstoqueService\EstoqueLibrary\obj\Debug\EstoqueLibrary.pdb

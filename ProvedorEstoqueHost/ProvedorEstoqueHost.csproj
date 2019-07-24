@@ -84,6 +84,14 @@
     <None Include="Properties\DataSources\ServicoEstoqueLibrary.Produto.datasource" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\EstoqueEntityModel\EstoqueEntityModel.csproj">
+      <Project>{47f60e83-5b57-4d29-a576-23406b2c976a}</Project>
+      <Name>EstoqueEntityModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EstoqueLibrary\EstoqueLibrary.csproj">
+      <Project>{8B8B06EC-3AB0-4183-9A24-48D1D520C682}</Project>
+      <Name>EstoqueLibrary</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ServicoEstoqueLibrary\ServicoEstoqueLibrary.csproj">
       <Project>{f51fea89-cd14-40ba-9279-a169d0c3fded}</Project>
       <Name>ServicoEstoqueLibrary</Name>

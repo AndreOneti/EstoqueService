@@ -14,3 +14,8 @@ C:\Users\André\Desktop\EstoqueService\ProvedorEstoqueHost\obj\Debug\ProvedorEst
 C:\Users\André\Desktop\EstoqueService\ProvedorEstoqueHost\obj\Debug\ProvedorEstoqueHost.csproj.CopyComplete
 C:\Users\André\Desktop\EstoqueService\ProvedorEstoqueHost\obj\Debug\ProvedorEstoqueHost.exe
 C:\Users\André\Desktop\EstoqueService\ProvedorEstoqueHost\obj\Debug\ProvedorEstoqueHost.pdb
+C:\Users\André\Desktop\EstoqueService\ProvedorEstoqueHost\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\André\Desktop\EstoqueService\ProvedorEstoqueHost\bin\Debug\EstoqueLibrary.dll
+C:\Users\André\Desktop\EstoqueService\ProvedorEstoqueHost\bin\Debug\EstoqueLibrary.pdb
+C:\Users\André\Desktop\EstoqueService\ProvedorEstoqueHost\bin\Debug\EstoqueLibrary.dll.config
+C:\Users\André\Desktop\EstoqueService\ProvedorEstoqueHost\bin\Debug\EntityFramework.SqlServer.xml

@@ -8,13 +8,13 @@ using System.Text;
 namespace EstoqueLibrary
 {
     // OBSERVAÇÃO: Você pode usar o comando "Renomear" no menu "Refatorar" para alterar o nome da interface "IService1" no arquivo de código e configuração ao mesmo tempo.
-    [ServiceContract(Namespace = "http://projetoavaliativo.dm113/01", Name = "IService1")]
+    [ServiceContract(Namespace = "http://projetoavaliativo.dm113/01", Name = "IServicoEstoque1")]
     public interface IServicoEstoque1
     {
 
         // Get all products
         [OperationContract]
-        List<String> ListarProdutos();
+        List<string> ListarProdutos();
 
         // Insert products
         [OperationContract]
@@ -42,7 +42,7 @@ namespace EstoqueLibrary
 
     }
 
-    [ServiceContract(Namespace = "http://projetoavaliativo.dm113/02", Name = "IService2")]
+    [ServiceContract(Namespace = "http://projetoavaliativo.dm113/02", Name = "IServicoEstoque2")]
     public interface IServicoEstoque2
     {
 

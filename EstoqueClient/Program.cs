@@ -31,6 +31,7 @@ namespace EstoqueClient
             Console.WriteLine("Name: {0}", product.NomeProduto);
             Console.WriteLine("Code: {0}", product.NumeroProduto);
             Console.WriteLine();
+            Console.ReadLine();
         }
     }
 }

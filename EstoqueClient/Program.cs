@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.ServiceModel;
-using EstoqueClient.ServiceReference1;
+using EstoqueClient.IServicoEstoque1;
 
 namespace EstoqueClient
 {
@@ -12,7 +12,7 @@ namespace EstoqueClient
     {
         static void Main(string[] args)
         {
-            Service1Client proxy = new Service1Client();
+            ServicoEstoque1Client proxy = new ServicoEstoque1Client("BasicHttpBinding_IServicoEstoque1");
 
             // Test the operations in the service
             // Obtain a list of all products

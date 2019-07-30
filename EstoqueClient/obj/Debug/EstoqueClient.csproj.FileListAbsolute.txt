@@ -5,3 +5,8 @@ C:\Users\André\Desktop\EstoqueService\EstoqueClient\obj\Debug\EstoqueClient.csp
 C:\Users\André\Desktop\EstoqueService\EstoqueClient\obj\Debug\EstoqueClient.csproj.CoreCompileInputs.cache
 C:\Users\André\Desktop\EstoqueService\EstoqueClient\obj\Debug\EstoqueClient.exe
 C:\Users\André\Desktop\EstoqueService\EstoqueClient\obj\Debug\EstoqueClient.pdb
+C:\Users\André\Desktop\EstoqueService\EstoqueClient\bin\Debug\EntityFramework.dll
+C:\Users\André\Desktop\EstoqueService\EstoqueClient\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\André\Desktop\EstoqueService\EstoqueClient\bin\Debug\EntityFramework.xml
+C:\Users\André\Desktop\EstoqueService\EstoqueClient\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\André\Desktop\EstoqueService\EstoqueClient\obj\Debug\EstoqueClient.csproj.CopyComplete

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.ServiceModel;
-using EstoqueClient.IServicoEstoque1;
+using EstoqueClient.EstoqueService;
 
 namespace EstoqueClient
 {

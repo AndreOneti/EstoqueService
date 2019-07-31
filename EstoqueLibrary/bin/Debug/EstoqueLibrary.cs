@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace EstoqueClient.IServicoEstoque1
+namespace EstoqueClient.EstoqueService
 {
     using System.Runtime.Serialization;
     
@@ -95,7 +95,7 @@ namespace EstoqueClient.IServicoEstoque1
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(Namespace="http://projetoavaliativo.dm113/01", ConfigurationName="EstoqueClient.IServicoEstoque1.IServicoEstoque1")]
+    [System.ServiceModel.ServiceContractAttribute(Namespace="http://projetoavaliativo.dm113/01", ConfigurationName="EstoqueClient.EstoqueService.IServicoEstoque1")]
     public interface IServicoEstoque1
     {
         
@@ -106,10 +106,10 @@ namespace EstoqueClient.IServicoEstoque1
         System.Threading.Tasks.Task<string[]> ListarProdutosAsync();
         
         [System.ServiceModel.OperationContractAttribute(Action="http://projetoavaliativo.dm113/01/IServicoEstoque1/IncluirProduto", ReplyAction="http://projetoavaliativo.dm113/01/IServicoEstoque1/IncluirProdutoResponse")]
-        bool IncluirProduto(EstoqueClient.IServicoEstoque1.Produto Produto);
+        bool IncluirProduto(EstoqueClient.EstoqueService.Produto Produto);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://projetoavaliativo.dm113/01/IServicoEstoque1/IncluirProduto", ReplyAction="http://projetoavaliativo.dm113/01/IServicoEstoque1/IncluirProdutoResponse")]
-        System.Threading.Tasks.Task<bool> IncluirProdutoAsync(EstoqueClient.IServicoEstoque1.Produto Produto);
+        System.Threading.Tasks.Task<bool> IncluirProdutoAsync(EstoqueClient.EstoqueService.Produto Produto);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://projetoavaliativo.dm113/01/IServicoEstoque1/RemoverProduto", ReplyAction="http://projetoavaliativo.dm113/01/IServicoEstoque1/RemoverProdutoResponse")]
         bool RemoverProduto(string NumeroProduto);
@@ -136,20 +136,20 @@ namespace EstoqueClient.IServicoEstoque1
         System.Threading.Tasks.Task<bool> RemoverEstoqueAsync(string NumeroProduto, int Quantidade);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://projetoavaliativo.dm113/01/IServicoEstoque1/VerProduto", ReplyAction="http://projetoavaliativo.dm113/01/IServicoEstoque1/VerProdutoResponse")]
-        EstoqueClient.IServicoEstoque1.Produto VerProduto(string NumeroProduto);
+        EstoqueClient.EstoqueService.Produto VerProduto(string NumeroProduto);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://projetoavaliativo.dm113/01/IServicoEstoque1/VerProduto", ReplyAction="http://projetoavaliativo.dm113/01/IServicoEstoque1/VerProdutoResponse")]
-        System.Threading.Tasks.Task<EstoqueClient.IServicoEstoque1.Produto> VerProdutoAsync(string NumeroProduto);
+        System.Threading.Tasks.Task<EstoqueClient.EstoqueService.Produto> VerProdutoAsync(string NumeroProduto);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface IServicoEstoque1Channel : EstoqueClient.IServicoEstoque1.IServicoEstoque1, System.ServiceModel.IClientChannel
+    public interface IServicoEstoque1Channel : EstoqueClient.EstoqueService.IServicoEstoque1, System.ServiceModel.IClientChannel
     {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class ServicoEstoque1Client : System.ServiceModel.ClientBase<EstoqueClient.IServicoEstoque1.IServicoEstoque1>, EstoqueClient.IServicoEstoque1.IServicoEstoque1
+    public partial class ServicoEstoque1Client : System.ServiceModel.ClientBase<EstoqueClient.EstoqueService.IServicoEstoque1>, EstoqueClient.EstoqueService.IServicoEstoque1
     {
         
         public ServicoEstoque1Client()
@@ -186,12 +186,12 @@ namespace EstoqueClient.IServicoEstoque1
             return base.Channel.ListarProdutosAsync();
         }
         
-        public bool IncluirProduto(EstoqueClient.IServicoEstoque1.Produto Produto)
+        public bool IncluirProduto(EstoqueClient.EstoqueService.Produto Produto)
         {
             return base.Channel.IncluirProduto(Produto);
         }
         
-        public System.Threading.Tasks.Task<bool> IncluirProdutoAsync(EstoqueClient.IServicoEstoque1.Produto Produto)
+        public System.Threading.Tasks.Task<bool> IncluirProdutoAsync(EstoqueClient.EstoqueService.Produto Produto)
         {
             return base.Channel.IncluirProdutoAsync(Produto);
         }
@@ -236,12 +236,12 @@ namespace EstoqueClient.IServicoEstoque1
             return base.Channel.RemoverEstoqueAsync(NumeroProduto, Quantidade);
         }
         
-        public EstoqueClient.IServicoEstoque1.Produto VerProduto(string NumeroProduto)
+        public EstoqueClient.EstoqueService.Produto VerProduto(string NumeroProduto)
         {
             return base.Channel.VerProduto(NumeroProduto);
         }
         
-        public System.Threading.Tasks.Task<EstoqueClient.IServicoEstoque1.Produto> VerProdutoAsync(string NumeroProduto)
+        public System.Threading.Tasks.Task<EstoqueClient.EstoqueService.Produto> VerProdutoAsync(string NumeroProduto)
         {
             return base.Channel.VerProdutoAsync(NumeroProduto);
         }

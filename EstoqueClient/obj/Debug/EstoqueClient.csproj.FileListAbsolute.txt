@@ -1,4 +1,3 @@
-C:\Users\André\Desktop\EstoqueService\EstoqueClient\bin\Debug\EstoqueClient.exe.config
 C:\Users\André\Desktop\EstoqueService\EstoqueClient\bin\Debug\EstoqueClient.exe
 C:\Users\André\Desktop\EstoqueService\EstoqueClient\bin\Debug\EstoqueClient.pdb
 C:\Users\André\Desktop\EstoqueService\EstoqueClient\obj\Debug\EstoqueClient.csprojAssemblyReference.cache
@@ -10,3 +9,4 @@ C:\Users\André\Desktop\EstoqueService\EstoqueClient\bin\Debug\EntityFramework.S
 C:\Users\André\Desktop\EstoqueService\EstoqueClient\bin\Debug\EntityFramework.xml
 C:\Users\André\Desktop\EstoqueService\EstoqueClient\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\André\Desktop\EstoqueService\EstoqueClient\obj\Debug\EstoqueClient.csproj.CopyComplete
+C:\Users\André\Desktop\EstoqueService\EstoqueClient\bin\Debug\EstoqueClient.exe.config

@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.ServiceModel;
-using EstoqueClient.EstoqueService;
+using Client2.EstoqueService;
 
-namespace EstoqueClient
+namespace Client2
 {
     class Program
     {
         static void Main(string[] args)
         {
-            ServicoEstoque1Client proxy = new ServicoEstoque1Client("BasicHttpBinding_IServicoEstoque");
+            ServicoEstoque2Client proxy = new ServicoEstoque2Client("BasicHttpBinding_IServicoEstoque1");
 
             // Test the operations in the service
             // Obtain a list of all products
@@ -30,9 +30,7 @@ namespace EstoqueClient
             Produto product = proxy.VerProduto("10000");
             Console.WriteLine("Name: {0}", product.NomeProduto);
             Console.WriteLine("Code: {0}", product.NumeroProduto);
-            // Disconnect from the service
-            proxy.Close();
-            Console.WriteLine("Press ENTER to finish");
+            Console.WriteLine();
             Console.ReadLine();
         }
     }
